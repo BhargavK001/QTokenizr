@@ -5,22 +5,19 @@ const Features = () => {
   return (
     <section id="features" className="section" style={{ backgroundColor: 'var(--secondary)' }}>
       <div className="container">
-        <div style={{ textAlign: 'center', marginBottom: '80px' }}>
-          <h2 style={{ fontSize: '40px', marginBottom: '20px', color: 'var(--foreground)' }}>
-            Everything you need to control the flow.
-          </h2>
-          <p style={{ fontSize: '20px', maxWidth: '640px', margin: '0 auto' }}>
-            Powerful tools designed for speed, clarity, and ease of use. Replace chaotic waiting rooms with streamlined digital workflows.
-          </p>
+        <div style={{ textAlign: 'center', marginBottom: '48px' }}>
+          <div className="badge" style={{ marginBottom: '12px' }}>Features</div>
+          <h2 style={{ fontSize: '42px', marginBottom: '12px' }}>Everything you need to scale</h2>
+          <p style={{ maxWidth: '600px', margin: '0 auto' }}>QueueFlow combines simplicity with powerful enterprise features.</p>
         </div>
 
-        <div className="bento-grid" style={{
-          display: 'grid',
-          gridTemplateColumns: 'repeat(12, 1fr)',
-          gap: '24px'
-        }}>
-          {/* Large Feature */}
-          <div className="bento-card bento-large" style={{
+        <div className="features-grid" style={{ 
+        display: 'grid', 
+        gridTemplateColumns: 'repeat(12, 1fr)', 
+        gap: '16px',
+        gridAutoRows: 'minmax(200px, auto)'
+      }}>
+    <div className="bento-card bento-large" style={{
             gridColumn: 'span 7',
             background: 'var(--card)',
             border: '1px solid var(--border)',

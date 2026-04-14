@@ -50,7 +50,7 @@ const Signup = () => {
         flex: 1,
         display: 'flex',
         flexDirection: 'column',
-        padding: '40px',
+        padding: '32px',
         background: 'var(--background)',
         maxWidth: '50%'
       }}>
@@ -72,9 +72,9 @@ const Signup = () => {
 
         {/* Main Form Area */}
         <div className="form-container" style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-          <div className="form-wrapper" style={{ width: '100%', maxWidth: '400px' }}>
-            <h1 style={{ fontSize: '32px', fontWeight: 700, marginBottom: '8px', color: 'var(--foreground)', letterSpacing: '-0.02em' }}>Get started for free</h1>
-            <p style={{ fontSize: '15px', color: 'var(--muted-foreground)', marginBottom: '32px' }}>No credit card required. Setup takes less than 2 minutes.</p>
+          <div className="form-wrapper" style={{ width: '100%', maxWidth: '400px', padding: '24px 0' }}>
+            <h1 style={{ fontSize: '32px', fontWeight: 700, marginBottom: '4px', color: 'var(--foreground)', letterSpacing: '-0.02em' }}>Get started for free</h1>
+            <p style={{ fontSize: '15px', color: 'var(--muted-foreground)', marginBottom: '24px' }}>No credit card required. Setup takes less than 2 minutes.</p>
             
             {/* Social Logins */}
             <div style={{ display: 'flex', gap: '12px' }}>
@@ -102,7 +102,7 @@ const Signup = () => {
             </div>
 
             {/* Form Fields */}
-            <div style={{ display: 'flex', gap: '16px', marginBottom: '16px' }}>
+            <div style={{ display: 'flex', gap: '12px', marginBottom: '12px' }}>
               <div style={{ flex: 1 }}>
                 <label style={{ display: 'block', fontSize: '13px', fontWeight: 500, color: 'var(--foreground)', marginBottom: '8px' }}>First name</label>
                 <div className="input-field-wrapper" style={{ height: '48px', border: '1px solid var(--border)', borderRadius: 'var(--radius-md)', padding: '0 16px', display: 'flex', alignItems: 'center', background: 'var(--input)', gap: '12px', transition: 'all 0.2s ease' }}>
@@ -119,7 +119,7 @@ const Signup = () => {
               </div>
             </div>
 
-            <div style={{ marginBottom: '16px' }}>
+            <div style={{ marginBottom: '12px' }}>
               <label style={{ display: 'block', fontSize: '13px', fontWeight: 500, color: 'var(--foreground)', marginBottom: '8px' }}>Work email</label>
               <div className="input-field-wrapper" style={{ height: '48px', border: '1px solid var(--border)', borderRadius: 'var(--radius-md)', padding: '0 16px', display: 'flex', alignItems: 'center', background: 'var(--input)', gap: '12px', transition: 'all 0.2s ease' }}>
                 <Mail size={18} color="var(--muted-foreground)" />
@@ -127,7 +127,7 @@ const Signup = () => {
               </div>
             </div>
 
-            <div style={{ marginBottom: '24px' }}>
+            <div style={{ marginBottom: '20px' }}>
               <label style={{ display: 'block', fontSize: '13px', fontWeight: 500, color: 'var(--foreground)', marginBottom: '8px' }}>Password</label>
               <div className="input-field-wrapper" style={{ height: '48px', border: '1px solid var(--border)', borderRadius: 'var(--radius-md)', padding: '0 16px', display: 'flex', alignItems: 'center', background: 'var(--input)', justifyContent: 'space-between', gap: '12px', transition: 'all 0.2s ease' }}>
                 <Lock size={18} color="var(--muted-foreground)" />

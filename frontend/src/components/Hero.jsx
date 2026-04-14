@@ -4,37 +4,24 @@ import { Sparkles, ArrowRight } from 'lucide-react';
 
 const Hero = () => {
   return (
-    <section className="hero container" style={{
-      paddingTop: '160px',
-      paddingBottom: '80px',
+    <section className="hero" style={{ 
+      paddingTop: '100px', 
+      paddingBottom: '60px', 
       textAlign: 'center',
-      display: 'flex',
-      flexDirection: 'column',
-      alignItems: 'center'
+      position: 'relative',
+      overflow: 'hidden'
     }}>
-      <div className="badge" style={{ marginBottom: '32px' }}>
-        <Sparkles size={14} style={{ marginRight: '6px', color: 'var(--primary)' }} />
-        Introducing QueueFlow 2.0
-      </div>
-      <h1 className="hero-title text-balance" style={{
-        fontSize: '76px',
-        lineHeight: 1.05,
-        marginBottom: '24px',
-        maxWidth: '960px',
-        color: 'var(--foreground)'
-      }}>
-        Skip the Waiting Line.<br />
-        <span style={{ color: 'var(--muted-foreground)' }}>Manage Queues Digitally.</span>
-      </h1>
-      <p className="hero-subtitle text-balance" style={{
-        fontSize: '20px',
-        maxWidth: '640px',
-        margin: '0 auto 48px',
-        lineHeight: 1.6
-      }}>
-        The modern, intelligent queue management system that eliminates physical lines, optimizes wait times, and transforms your customer experience.
-      </p>
-      <div style={{ display: 'flex', gap: '16px', justifyContent: 'center', marginBottom: '100px' }}>
+      <div className="container">
+        <div className="badge" style={{ marginBottom: '16px' }}>
+          ✨ Over 2,000+ teams optimized their wait times
+        </div>
+        <h1 style={{ fontSize: '72px', maxWidth: '900px', margin: '0 auto 16px', color: 'var(--foreground)' }}>
+          Eliminate lines. <span style={{ color: 'var(--primary)' }}>Empower customers.</span>
+        </h1>
+        <p style={{ fontSize: '20px', maxWidth: '650px', margin: '0 auto 32px' }}>
+          The modern, intelligent queue management system that eliminates physical lines, optimizes wait times, and transforms your customer experience.
+        </p>
+        <div style={{ display: 'flex', gap: '16px', justifyContent: 'center', marginBottom: '80px' }}>
         <Link to="/signup">
           <button className="btn btn-primary btn-lg">Get Started Free</button>
         </Link>
@@ -64,6 +51,7 @@ const Hero = () => {
               alt="QueueFlow Dashboard" 
               style={{ width: '100%' }} 
             />
+          </div>
           </div>
         </div>
       </div>

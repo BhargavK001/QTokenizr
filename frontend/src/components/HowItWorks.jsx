@@ -20,21 +20,20 @@ const HowItWorks = () => {
   ];
 
   return (
-    <section id="how-it-works" className="section container">
-      <div style={{ textAlign: 'center' }}>
-        <div className="badge" style={{ background: 'var(--background)', marginBottom: '24px' }}>How It Works</div>
-        <h2 style={{ fontSize: '40px', marginBottom: '20px', color: 'var(--foreground)' }}>From chaos to order in three steps</h2>
-        <p style={{ fontSize: '20px', maxWidth: '600px', margin: '0 auto' }}>
-          Setting up your digital queue takes less than two minutes.
-        </p>
-      </div>
+    <section id="how-it-works" className="section" style={{ background: 'var(--secondary)' }}>
+      <div className="container">
+        <div style={{ textAlign: 'center', marginBottom: '48px' }}>
+          <div className="badge" style={{ marginBottom: '12px' }}>How it works</div>
+          <h2 style={{ fontSize: '42px', marginBottom: '12px' }}>Get running in minutes</h2>
+          <p style={{ maxWidth: '600px', margin: '0 auto' }}>A simple 3-step process to transform your customer journey.</p>
+        </div>
 
-      <div className="steps-grid" style={{
-        display: 'grid',
-        gridTemplateColumns: 'repeat(3, 1fr)',
-        gap: '24px',
-        marginTop: '64px'
-      }}>
+        <div className="steps-grid" style={{
+          display: 'grid',
+          gridTemplateColumns: 'repeat(3, 1fr)',
+          gap: '16px',
+          marginTop: '48px'
+        }}>
         {steps.map((step) => (
           <div key={step.id} className="step-card" style={{
             background: 'var(--card)',
@@ -60,6 +59,7 @@ const HowItWorks = () => {
           .steps-grid { grid-template-columns: 1fr !important; }
         }
       `}</style>
+      </div>
     </section>
   );
 };

@@ -3,27 +3,23 @@ import { LayoutDashboard, Smartphone, Check } from 'lucide-react';
 
 const ProductPreviews = () => {
   return (
-    <section className="section container" style={{ paddingTop: '40px' }}>
-      {/* Owner Dashboard */}
-      <div className="preview-row" style={{
-        display: 'flex',
-        alignItems: 'center',
-        gap: '80px',
-        marginBottom: '160px'
-      }}>
-        <div className="preview-content" style={{ flex: 1, paddingRight: '40px' }}>
-          <div style={{
-            display: 'inline-flex',
-            alignItems: 'center',
-            gap: '8px',
-            color: 'var(--primary)',
-            fontWeight: 600,
-            fontSize: '14px',
-            marginBottom: '20px'
-          }}>
-            <LayoutDashboard size={18} /> FOR TEAMS
-          </div>
-          <h2 style={{ fontSize: '36px', marginBottom: '24px', color: 'var(--foreground)', lineHeight: 1.2 }}>
+    <section id="product" className="section">
+      <div className="container">
+        {/* For Team */}
+        <div className="preview-row" style={{ display: 'flex', alignItems: 'center', gap: '48px', marginBottom: '64px', flexWrap: 'wrap' }}>
+          <div className="preview-content" style={{ flex: 1, paddingRight: '40px' }}>
+            <div style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '8px',
+              color: 'var(--primary)',
+              fontWeight: 600,
+              fontSize: '14px',
+              marginBottom: '12px'
+            }}>
+              <LayoutDashboard size={18} /> FOR TEAMS
+            </div>
+            <h2 style={{ fontSize: '36px', marginBottom: '12px', color: 'var(--foreground)', lineHeight: 1.2 }}>
             Command central for your staff
           </h2>
           <p style={{ fontSize: '18px', marginBottom: '40px', lineHeight: 1.6 }}>
@@ -75,7 +71,7 @@ const ProductPreviews = () => {
         display: 'flex',
         flexDirection: 'row-reverse',
         alignItems: 'center',
-        gap: '80px'
+        gap: '40px'
       }}>
         <div className="preview-content" style={{ flex: 1, paddingLeft: '40px' }}>
           <div style={{
@@ -155,6 +151,7 @@ const ProductPreviews = () => {
           .preview-content { padding: 0 !important; }
         }
       `}</style>
+      </div>
     </section>
   );
 };

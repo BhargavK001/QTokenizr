@@ -9,7 +9,7 @@ const CTA = () => {
         background: 'var(--foreground)',
         color: 'var(--background)',
         borderRadius: '32px',
-        padding: '100px 40px',
+        padding: '72px 40px',
         textAlign: 'center',
         display: 'flex',
         flexDirection: 'column',
