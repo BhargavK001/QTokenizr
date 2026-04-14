@@ -8,7 +8,7 @@ const Features = () => {
         <div style={{ textAlign: 'center', marginBottom: '48px' }}>
           <div className="badge" style={{ marginBottom: '12px' }}>Features</div>
           <h2 style={{ fontSize: '42px', marginBottom: '12px' }}>Everything you need to scale</h2>
-          <p style={{ maxWidth: '600px', margin: '0 auto' }}>QueueFlow combines simplicity with powerful enterprise features.</p>
+          <p style={{ maxWidth: '600px', margin: '0 auto' }}>QTokenizr provides you with all the tools you need to optimize your customer flow and eliminate physical lines forever.</p>
         </div>
 
         <div className="features-grid" style={{ 

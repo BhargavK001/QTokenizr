@@ -35,7 +35,7 @@ const Footer = () => {
               }}>
                 <Layers size={16} color="var(--primary-foreground)" />
               </div>
-              QueueFlow
+              QTokenizr
             </div>
             <p style={{ fontSize: '15px', maxWidth: '280px', margin: 0 }}>
               The modern digital queue management system for forward-thinking businesses worldwide.
@@ -64,7 +64,7 @@ const Footer = () => {
           borderTop: '1px solid var(--border)'
         }}>
           <span style={{ color: 'var(--muted-foreground)', fontSize: '14px' }}>
-            © {currentYear} QueueFlow Inc. All rights reserved.
+            © {currentYear} QTokenizr Inc. All rights reserved.
           </span>
           <div style={{ display: 'flex', gap: '20px' }}>
             {[MessageCircle, GitBranch, Briefcase].map((Icon, i) => (

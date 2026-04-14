@@ -10,7 +10,7 @@ const Benefits = () => {
     {
       value: '95%',
       title: 'Customer Satisfaction',
-      description: 'Businesses using QueueFlow see an immediate jump in positive reviews and customer return visits.'
+      description: 'Businesses using QTokenizr see an immediate jump in positive reviews and customer return visits.'
     },
     {
       value: '3x',

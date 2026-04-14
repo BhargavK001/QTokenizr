@@ -44,7 +44,7 @@ const Navbar = () => {
               }}>
                 <Layers size={18} color="var(--primary-foreground)" />
               </div>
-              QueueFlow
+              QTokenizr
             </div>
           </Link>
           <div className="nav-links" style={{

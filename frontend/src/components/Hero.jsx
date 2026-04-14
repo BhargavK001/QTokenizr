@@ -48,7 +48,7 @@ const Hero = () => {
           <div style={{ borderRadius: '12px', overflow: 'hidden', border: '1px solid var(--border)', background: 'var(--background)' }}>
             <img 
               src="https://storage.googleapis.com/banani-generated-images/generated-images/0dceb11e-befc-4e88-a882-a07b44ec3f6f.jpg" 
-              alt="QueueFlow Dashboard" 
+              alt="QTokenizr Dashboard" 
               style={{ width: '100%' }} 
             />
           </div>
